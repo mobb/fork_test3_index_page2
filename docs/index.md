@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Jekyll Docs Template"
+title: "EDI Project Documentation"
 ---
 
 ### Get Started
