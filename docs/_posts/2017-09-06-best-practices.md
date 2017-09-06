@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to EDI"
-date:   today
+date:   2017-09-06
 categories: doc
 ---
 This post should show up under Documentation
