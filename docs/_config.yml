@@ -21,6 +21,7 @@ codeurl: 'https://github.com/mobb/documentation_test3'
 # Default categories (in order) to appear in the navigation
 sections: [
     ['doc', 'Documentation'],
+	['bp',  'Guides' ],
     ['tut', 'Tutorial'],
     ['ref', 'Reference'],
     ['dev', 'Developers'],
