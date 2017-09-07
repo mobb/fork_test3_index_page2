@@ -13,15 +13,15 @@ This page has examples, and also shows you what how the md is transformed to htm
  https://kramdown.gettalong.org/quickref.html
 
 
-# Introduction
+## Introduction
 Short paragraph, maybe some background.
 
 ---
-# Recommendation
-what the recommendation is
+## Recommendation
+what the recommendation is.
 
 ---
-# How to or examples
+## How to or examples
 how to do it. put exampes in code blocks
 
 
@@ -29,16 +29,16 @@ how to do it. put exampes in code blocks
 simplest way to do a code block is to surround by defined by tildes.
 ~~
 Ending lines must have at least as
-many tildes as the starting line.
+many tildes as the starting line. 
 ~~~~~~~~~~~
 
 
-Code block with language specified:
-~~ ruby
+Code block with language specified uses backticks:
+```ruby
 def what?
   42
 end
-~~
+```
 
 
 
