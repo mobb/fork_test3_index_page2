@@ -7,10 +7,10 @@ categories: doc
 This post should show up under Documentation
 
 this is a test link. can I see this file? 
-<a href="../files/966.pdf">link to 966.pdf</a>
+<a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>
 
 This is a test link, to an image.
-<img src="../images/EDI-logo-svg-240.png" alt="EDI logo" height="80" width="80"/>
+<img src="{{ site.baseurl }}/images/EDI-logo-svg-240.png" alt="EDI logo" height="80" width="80"/>
 end of img.
 
 
