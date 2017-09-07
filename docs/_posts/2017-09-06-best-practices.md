@@ -10,7 +10,7 @@ this is a test link. can I see this file?
 <a href="../files/966.pdf">link to 966.pdf</a>
 
 This is a test link, to an image.
-<img src="../images/EDI-logo-svg-240.png" />
+<img src="../images/EDI-logo-svg-240.png" alt="EDI logo" height="50" width="50"/>
 end of img.
 
 
