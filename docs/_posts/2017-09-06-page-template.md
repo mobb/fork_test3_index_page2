@@ -27,10 +27,12 @@ how to do it.
 
 ### File and image links
 Example of how to create a link: <a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>.
-~~~~
+<pre>
+<code>
 <a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>. 
-~~~~~
-This example uses HTML. Of course, you can use markdown shortcuts. see the kramdown quick ref.
+</code>
+</pre>
+This example uses HTML, and the pre/code combination. Seems to me that tokens should not be replaced. If they are, look a the source. You can also use markdown shortcuts. see the kramdown quick ref.
 
 Steps
 1. commit the file to the files dir
@@ -55,7 +57,7 @@ many tildes as the starting line.
 
 
 Code block with language specified uses backticks:
-```ruby
+``` ruby
 def what?
   42
 end
