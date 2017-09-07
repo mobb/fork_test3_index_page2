@@ -16,15 +16,36 @@ This page has examples, and also shows you what how the md is transformed to htm
 ## Introduction
 Short paragraph, maybe some background.
 
+
 ---
 ## Recommendation
 what the recommendation is.
 
 ---
 ## How to or examples
-how to do it. put exampes in code blocks
+how to do it. 
+
+### File and image links
+Example of how to create a link: <a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>.
+~~~~
+<a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>. 
+~~~~~
+This example uses HTML. Of course, you can use markdown shortcuts. see the kramdown quick ref.
+
+Steps
+1. commit the file to the files dir
+1. create link using site.baseurl
 
 
+Example of a how to include an image. Same process, use the images dir and site.baseurl:
+<img src="{{ site.baseurl }}/images/EDI-logo-svg-240.png" alt="EDI logo" height="80" width="80"/>
+
+~~~
+<img src="{{ site.baseurl }}/images/EDI-logo-svg-240.png" alt="EDI logo" height="80" width="80"/>
+~~~~
+
+### Code blocks
+put code examples in code blocks
 ~~~~~
 simplest way to do a code block is to surround by defined by tildes.
 ~~
