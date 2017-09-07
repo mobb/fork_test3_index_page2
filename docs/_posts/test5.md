@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "no date in filename"
 date:   2017-09-07
 categories: doc

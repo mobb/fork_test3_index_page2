@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Welcome to EDI"
 date:   2017-09-06
 categories: doc
