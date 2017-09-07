@@ -18,7 +18,7 @@ This page has examples, and also shows you what how the md is transformed to htm
 
 ### H3 header
 
-## horizontal rules
+### horizontal rules
 Insert a horizontal rule with three or more asterisks, dashes or underscores, optionally separated by spaces or tabs, on an otherwise blank line:
 
 * * *
@@ -31,29 +31,29 @@ Insert a horizontal rule with three or more asterisks, dashes or underscores, op
 
 
 
-# code block
+### code block
 
-<pre><code>this is a code block.
+<pre><code>this is a code block defined by pre and code tags.
 </code></pre>
 
 ~~~~~
 This is a code block defined by tildes.
 ~~
 Ending lines must have at least as
-many tildes as the starting line.
+many tildes as the starting line. this code block has 2 imbedded tildes that did not close the block.
 ~~~~~~~~~~~
 
 
-code block with language specified:
+code block with language specified is defined by backquotes:
 
-~~ ruby
+```ruby
 def what?
   42
 end
-~~
+```
 
 
-# nested lists
+### nested lists
 1. Item one
    1. sub item one
    2. sub item two
