@@ -27,12 +27,12 @@ how to do it.
 
 ### File and image links
 Example of how to create a link: <a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>.
-<pre>
-<code>
+
+~~~~
 <a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>. 
-</code>
-</pre>
-This example uses HTML, and the pre/code combination. Seems to me that tokens should not be replaced. If they are, look a the source. You can also use markdown shortcuts. see the kramdown quick ref.
+~~~~~
+
+This example uses HTML, and tildes. Seems to me that tokens should not be replaced in a code block. If they are, look a the source. You can also use markdown shortcuts. see the kramdown quick ref.
 
 Steps
 1. commit the file to the files dir
