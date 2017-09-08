@@ -19,3 +19,9 @@ This repository contains basic files for creating project documentation that can
 - pages are in the `_posts` dir, with navigation and page metadata controlled by the top-matter
 - filenames in `_posts` should follow the convention of yyyy-mm-dd-title-string.md
 - Set the `baseurl` in `_config.yml` for your repo if deploying to GitHub pages (e.g, this test repo's baseurl is "documentation_test3"
+
+### TO DO
+* see these pages: and figure out how to use collections
+  ** https://mobb.github.io/documentation_test3/guides/test1.html
+  ** https://mobb.github.io/documentation_test3/guides/test3.html
+
