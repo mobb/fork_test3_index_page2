@@ -58,3 +58,14 @@ redcarpet:
         'tables',
         'hardwrap'
     ]
+
+
+
+# adding collections
+collections:
+	- guides
+
+
+
+
+
