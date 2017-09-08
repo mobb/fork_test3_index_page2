@@ -65,9 +65,7 @@ redcarpet:
 collections:
     guides:
         output: true
-	permalink: /:collection/:name
-	
- 			
+        permalink: /:collection/:name
 
 
 
