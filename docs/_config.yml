@@ -63,7 +63,11 @@ redcarpet:
 
 # adding collections
 collections:
-	- guides
+    guides:
+        output: true
+	permalink: /:collection/:name
+	
+ 			
 
 
 
