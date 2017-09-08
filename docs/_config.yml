@@ -1,6 +1,6 @@
 # Site title and subtitle. This is used in _includes/header.html
 title: 'Project documentation test'
-subtitle: 'DEV - simple documentation for projects'
+subtitle: 'DEV - simple documentation for EDI projects'
 
 # if you wish to integrate disqus on pages set your shortname here
 disqus_shortname: ''
