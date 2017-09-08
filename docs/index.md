@@ -12,7 +12,7 @@ This repository contains basic files for creating project documentation that can
 
 
 
-#### Don't Forget
+### Don't Forget
 
 - For the entire site, `title` and `subtitle` are defined in `config.yml` 
 - This page (i.e. `index.md`) is the index page. Edit the `title`
