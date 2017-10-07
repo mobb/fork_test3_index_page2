@@ -62,4 +62,44 @@ end
 
 
 
+### File and image links
+Example of how to create a link: <a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>.
+
+~~~
+<a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>.
+~~~~
+
+This example uses HTML, and tildes. Seems to me that tokens should not be replaced in a code block. If they are, look a the source. You can also use markdown shortcuts. see the kramdown quick ref.
+
+Steps
+1. commit the file to the files dir
+1. create link using site.baseurl
+
+
+Example of a how to include an image. Same process, use the images dir and site.baseurl:
+<img src="{{ site.baseurl }}/images/EDI-logo-svg-240.png" alt="EDI logo" height="80" width="80"/>
+
+~~
+<img src="{{ site.baseurl }}/images/EDI-logo-svg-240.png" alt="EDI logo" height="80" width="80"/>
+~~~
+
+### Code blocks
+put code examples in code blocks
+~~~~
+simplest way to do a code block is to surround by defined by tildes.
+~
+Ending lines must have at least as
+many tildes as the starting line.
+~~~~~~~~~~
+
+
+Code block with language specified uses backticks:
+``` ruby
+def what?
+  42
+end
+```
+
+
+
 
