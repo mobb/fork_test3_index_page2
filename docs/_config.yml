@@ -16,13 +16,11 @@ navigation: 1
 
 # URL to source code, used in _includes/footer.html
 # TO DO: update this RUL
-codeurl: 'https://github.com/mobb/documentation_test3'
+codeurl: 'https://github.com/mobb/fork_test3_index_page2'
 
 
 # Default categories (in order) to appear in the navigation
 sections: [
-    ['doc', 'Documentation'],
-	['bp',  'Guides' ],
     ['tut', 'Tutorial'],
     ['ref', 'Reference'],
     ['dev', 'Developers'],
@@ -31,8 +29,8 @@ sections: [
 
 # Keep as an empty string if served up at the root. If served up at a specific
 # path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project
-# baseurl: 'https://github.com/mobb/documentation_test3'
-baseurl: '/documentation_test3'
+# baseurl: 'https://github.com/mobb/fork_test3_index_page2'
+baseurl: '/fork_test3_index_page2'
 
 # Dates are not included in permalinks
 permalink: none
