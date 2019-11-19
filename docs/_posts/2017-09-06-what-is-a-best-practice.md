@@ -1,12 +1,19 @@
 ---
 layout: page
-title:  "Welcome to EDI"
+title:  "What makes a \"Best Practice\"?"
 date:   2017-09-06
-categories: doc
+categories: tut
 ---
-This post should show up under Documentation
+This post should show up under How to Contribute
 
-this is a test link. can I see this file? 
+
+To do:
+
+some guidelines for what is a "BP".
+e.g., it's justifiable, decided on by a community. It's not just something that happened once,, eg at your org (for those, use databits to advertise). Although, some BPs do start out as a practice at only place. 
+
+
+this is a test link. to a file: 
 <a href="{{ site.baseurl }}/files/966.pdf">link to 966.pdf</a>
 
 This is a test link, to an image.
@@ -14,7 +21,15 @@ This is a test link, to an image.
 end of img.
 
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `bundle exec jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Page front matter controls where in the menu the page appears.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+We are currently using only two sections: 
+- `tut`, for BP-templates, how-tos for markdown, this page. 
+- `about`, for info on how this website is generated
+    - gh-pages
+    - bookdown for sub-sections, so that they can be reviewd first.
 
+
+To add new pages to the MAIN site, add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+To add new material to bookdown sections, see the about : link tbd
