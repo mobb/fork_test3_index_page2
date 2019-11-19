@@ -21,7 +21,7 @@ codeurl: 'https://github.com/mobb/fork_test3_index_page2'
 
 # Default categories (in order) to appear in the navigation
 sections: [
-    ['tut', 'Tutorial'],
+    ['tut', 'How to Contribute'],
     ['ref', 'Reference'],
     ['dev', 'Developers'],
     ['post', 'Posts']
