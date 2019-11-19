@@ -1,6 +1,6 @@
 # Site title and subtitle. This is used in _includes/header.html
-title: 'Project documentation test'
-subtitle: 'DEV - simple documentation for EDI projects'
+title: 'Data Package Best Practices'
+subtitle: 'update this line. forked from project_documentation_test3'
 
 # if you wish to integrate disqus on pages set your shortname here
 disqus_shortname: ''
@@ -15,6 +15,7 @@ google_analytics_id: ''
 navigation: 1
 
 # URL to source code, used in _includes/footer.html
+# TO DO: update this RUL
 codeurl: 'https://github.com/mobb/documentation_test3'
 
 
